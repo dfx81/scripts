@@ -21,7 +21,7 @@ def main():
   if (len(argv) <= 1):
     print("USAGE:\n: ./pdftxtract.py [source.pdf]")
     print("or")
-    print(": python3 pdftxtract.py [source.py]")
+    print(": python3 pdftxtract.py [source.pdf]")
     quit()
   else:
     try:
